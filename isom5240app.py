@@ -1,6 +1,17 @@
 
+# import part
 import streamlit as st
 from transformers import pipeline
+
+# function part
+
+# main part
+# set up page configuration
+st.set_page_config(
+    page_title="ISOM5240: Sentiment Analysis App",
+    page_icon="🤖",
+    layout="contered"
+)
 
 # 1. 頁面標題
 st.title("🤖 英文情緒分析工具")
