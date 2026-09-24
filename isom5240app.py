@@ -10,7 +10,7 @@ from transformers import pipeline
 st.set_page_config(
     page_title="ISOM5240: Sentiment Analysis App",
     page_icon="🤖",
-    layout="contered"
+    layout="centered"
 )
 
 # 1. 頁面標題
